@@ -28,6 +28,8 @@ https://github.com/microsoft/View-Adaptive-Neural-Networks-for-Skeleton-based-Hu
 Actions beigng recognised are:
 [Kick, punch, sit, squat, stand, wave, walk, jump, run]
 ### 7. Gait Recognition
+
+We are able to extract gait signature from the skeletal data given by OpenPose and then further classify these gait signatures using SVM classifier. But currently we are heighly overfitting on the training data. We are trying our best to come up with the model that generalises better and thus can be used in real-time.  
 ### 8. Person-Weapon detection and Tracking
 We are able to detect persons and weapons present in the video ferame using YOLOv3. The bounding box of each person is associated with his/her name using Face Frecognition module. These detections along with thier preper lables from both face Recognition and YOLO are paased to DeepSort Tracking.
 
