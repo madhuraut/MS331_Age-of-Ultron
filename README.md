@@ -18,7 +18,10 @@ We are able to detect following emotions from input video feed
 ### 5. Gender Detestion
 ### 6. Action Recognition
 
-Currently we are not looking into temporal information to recognise action being perfoermed. we are using simple neural network to classify the the skeletal data taken from OpenPose. We plan to accomodate temporal info by passing OpenPose output to recently opensourced View Adaptive Recurrent Neural Networks. https://github.com/microsoft/View-Adaptive-Neural-Networks-for-Skeleton-based-Human-Action-Recognition/blob/master/README.md  
+Currently we are not looking into temporal information to recognise action being perfoermed. 
+we are using simple neural network to classify the the skeletal data taken from OpenPose. 
+We plan to accomodate temporal info by passing OpenPose output to recently opensourced View Adaptive Recurrent Neural Networks.
+https://github.com/microsoft/View-Adaptive-Neural-Networks-for-Skeleton-based-Human-Action-Recognition/blob/master/README.md  
 ### 7. Gait Recognition
 ### 8. Person-Weapon detection and Tracking
 ### 9. Server that aggregates ingormation from all the modules and updates GUI in real-time
