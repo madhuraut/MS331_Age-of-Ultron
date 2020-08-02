@@ -14,8 +14,9 @@ But our system can identify if the face visible in camera frame is reak or fake.
 
 We are able to detect following emotions from input video feed
 []
-### 4. Age Detection
-### 5. Gender Detestion
+### 4. Age/Gender Detestion
+
+Dreishti can dtetct both gender as well as perceivable age of person present in the video frame. We still need to impreove age detection accuray further, we are working on it. 
 ### 6. Action Recognition
 
 Currently we are not looking into temporal information to recognise action being perfoermed. we are using simple neural network to classify the the skeletal data taken from OpenPose. 
@@ -23,6 +24,9 @@ Currently we are not looking into temporal information to recognise action being
 We plan to accomodate temporal info by passing OpenPose output to recently opensourced View Adaptive Recurrent Neural Networks.
 
 https://github.com/microsoft/View-Adaptive-Neural-Networks-for-Skeleton-based-Human-Action-Recognition/blob/master/README.md  
+
+Actions beigng recognised are:
+[Kick, punch, sit, squat, stand, wave, walk, jump, run]
 ### 7. Gait Recognition
 ### 8. Person-Weapon detection and Tracking
 ### 9. Server that aggregates ingormation from all the modules and updates GUI in real-time
