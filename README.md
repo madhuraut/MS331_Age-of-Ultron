@@ -3,18 +3,28 @@
 DRISHTI non-invasive biometric system that captures face, expression and gesture of targeted persons (criminals) through a network of distributed  CCTV cameras and also maintains detailed log in a database.
 
 ## DRISTI has following sub-modules:
-1. Face recognition 
-2. Face Anti-spoofing
-3. Emotion Recognition
-4. Age Detection
-5. Gender Detestion
-6. Action Recognition
-7. Gait Recognition
-9. Person-Weapon detection and Tracking
-10. Server that aggregates ingormation from all the modules and updates GUI in real-time
+### 1. Face recognition
+
+We are able to identify both known and unknown person in images as well as realtime video stream. 
+### 2. Face Anti-spoofing
+
+Most entry level Face recognition systems are susceptible to presentation attaks.
+But our system can identify if the face visible in camera frame is reak or fake.
+### 3. Emotion Recognition
+
+We are able to detect following emotions from input video feed
+[]
+### 4. Age Detection
+### 5. Gender Detestion
+### 6. Action Recognition
+
+Currently we are not looking into temporal information to recognise action being perfoermed. we are using simple neural network to classify the the skeletal data taken from OpenPose. We plan to accomodate temporal info by passing OpenPose output to recently opensourced View Adaptive Recurrent Neural Networks. https://github.com/microsoft/View-Adaptive-Neural-Networks-for-Skeleton-based-Human-Action-Recognition/blob/master/README.md  
+### 7. Gait Recognition
+### 8. Person-Weapon detection and Tracking
+### 9. Server that aggregates ingormation from all the modules and updates GUI in real-time
 
 
-### Face recognition 
+### Detaiks of each modules are further available in readme files of respective folderrs 
 
 
 ### Face Anti-spoofing
