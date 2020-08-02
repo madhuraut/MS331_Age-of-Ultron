@@ -1,8 +1,8 @@
-#DRISHTI
+# DRISHTI
 
 DRISHTI non-invasive biometric system that captures face, expression and gesture of targeted persons (criminals) through a network of distributed  CCTV cameras and also maintains detailed log in a database.
 
-##DRISTI has following sub-modules:
+## DRISTI has following sub-modules:
 1. Face recognition 
 2. Face Anti-spoofing
 3. Emotion Recognition
