@@ -29,8 +29,16 @@ Actions beigng recognised are:
 [Kick, punch, sit, squat, stand, wave, walk, jump, run]
 ### 7. Gait Recognition
 ### 8. Person-Weapon detection and Tracking
+We are able to detect persons and weapons present in the video ferame using YOLOv3. The bounding box of each person is associated with his/her name using Face Frecognition module. These detections along with thier preper lables from both face Recognition and YOLO are paased to DeepSort Tracking.
+
+So you can see that we can detect weapon present in the video frame and issue warning.
+
+Aslo even if we could capture the face of suspect in any one frame we can track the person no matter howe hard he tries to hide his face. 
 ### 9. Server that aggregates ingormation from all the modules and updates GUI in real-time
 
+In real time we plan that all these modules will run parallely and send the output to central server which then updates Dashboard GUI in realtime. 
+
+Following is the screen-shot of the proposed GUI:
 
 ### Detaiks of each modules are further available in readme files of respective folderrs 
 
