@@ -11,7 +11,7 @@ Hence, we use OpenPose and a Convolutional Neural Network (CNN).
 Deep Learning Model: cmu (pretrained on COCO dataset) 
  Input: image (frame)
  Number of layers: 101
- Output: skeleton is marked on the image
+ Output: skeleton is marked on the image (Positions of skeletal joints)
 
 ### Tracking
 It is used for tracking each person.
