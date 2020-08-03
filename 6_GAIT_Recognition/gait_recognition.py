@@ -129,3 +129,4 @@ model.fit(encodings, lables)
 with open('gaitsvcclassifier7_with_50frames_newrefineddata.pkl', 'wb') as outfile:
     pickle.dump((model, [0, 1, 2, 3, 4]), outfile)
 print("Saved classifier model to file gaitsvcclassifier7_with_50frames_newrefineddata.pkl")
+ 
