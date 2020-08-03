@@ -12,7 +12,7 @@ def index():
 
 @app.route('/face')
 def face():
-    #face RECONGITION TEMPLATE
+    #face RECONGITION TEMPLATE############
     return render_template('drishti_indexresent2_base.html')
 
 @socke_tio.on('connect', namespace='/')
