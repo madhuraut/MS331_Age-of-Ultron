@@ -1,6 +1,6 @@
-# Person & Weapon Detection & Tracking
+### Person & Weapon Detection & Tracking
 
-## About this module
+### About this module
 
 This solution implements YOLOv3 and Deep SORT in order to perform real-time Object Tracking and Weapon Detection.
 Yolov3 is an algorithm that uses deep convolutional neural networks to perform Object Detection.
@@ -25,7 +25,7 @@ Trained on the dataset: Custom dataset created using 2000 "Person" class images 
 
 
 
-## How to use
+### How to use
 
 `python tracking.py`
 
