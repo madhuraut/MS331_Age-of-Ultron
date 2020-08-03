@@ -297,3 +297,4 @@ if __name__ == "__main__":
     finally:
         video_writer.stop()
         print("Action Recognition ends")
+ 
