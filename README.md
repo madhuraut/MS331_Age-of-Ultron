@@ -30,7 +30,7 @@ We plan to accomodate temporal info by passing OpenPose output to recently opens
 
 ![](https://github.com/microsoft/View-Adaptive-Neural-Networks-for-Skeleton-based-Human-Action-Recognition/blob/master/README.md)
 
-Actions beigng recognised are:
+Actions being recognised are:
 [Kick, punch, sit, squat, stand, wave, walk, jump, run]
 ### 7. Gait Recognition
 ![](https://github.com/madhuraut/MS331_Age-of-Ultron/blob/master/demo_vids/gait_recognition.gif)
@@ -39,7 +39,7 @@ We are able to extract gait signature from the skeletal data given by OpenPose a
 ### 8. Person-Weapon detection and Tracking
 ![](https://github.com/madhuraut/MS331_Age-of-Ultron/blob/master/demo_vids/object_face_track.gif)
 
-We are able to detect persons and weapons present in the video ferame using YOLOv3. The bounding box of each person is associated with his/her name using Face Frecognition module. These detections along with thier preper lables from both face Recognition and YOLO are paased to DeepSort Tracking.
+We are able to detect persons and weapons present in the video frame using YOLOv3. The bounding box of each person is associated with his/her name using Face Recognition module. These detections along with their proper labels from both Face Recognition and YOLO are paased to DeepSort Tracking.
 
 So you can see that we can detect weapon present in the video frame and issue warning.
 
