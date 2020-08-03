@@ -1,5 +1,5 @@
 
-#Code For GAIT Recognition - SIH2020, Team Age of Ultron, DIAT,Pune
+#CODE FOR GAIT Recognition - SIH2020, Team Age of Ultron, DIAT,Pune
 #importing all libraries and models
 import os
 import numpy as np
@@ -13,7 +13,7 @@ from human_pose_nn import HumanPoseIRNetwork
 from gait_nn import GaitNetwork
 import pickle
 from sklearn.svm import SVC
-###################################
+
 #List of all persons
 P_names = ['Aishwaraya', 'Falguni', 'Lucy', 'Madhu', 'Nanda']
 font = cv2.FONT_HERSHEY_SIMPLEX

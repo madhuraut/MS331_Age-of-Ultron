@@ -7,6 +7,8 @@ import argparse
 import face
 import facenet
 
+
+
 facenet.testSudhir()
 
 #Code to draw rectangle in face and to put recognized data
