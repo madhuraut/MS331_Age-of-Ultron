@@ -17,3 +17,4 @@ Client side APIs in the FlaskSocketIO  helps in rendering the pages of the UI.
 The application is backed by MySql database which provides logs of the detections according to the search text .
 These database entries can be viewed in GUI as tables in the Profiles tab.
 
+Using Maps the gps location of the distributed camera can be tracked in the map with the help of map markers from MapBox API

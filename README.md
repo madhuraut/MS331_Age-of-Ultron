@@ -16,7 +16,7 @@ But our system can identify if the face visible in camera frame is real or fake.
 ![](https://github.com/madhuraut/MS331_Age-of-Ultron/blob/master/demo_vids/emotion_recognition.gif)
 
 We are able to detect following emotions from input video feed
-[]
+[Happy,Neutral,Surprise,Sad,Angry,Fear]
 ### 4. Age/Gender Detection
 ![](https://github.com/madhuraut/MS331_Age-of-Ultron/blob/master/demo_vids/gender_age_detection.gif)
 
@@ -55,3 +55,4 @@ Following is the screen-shot of the proposed GUI:
 
 
 
+ 
