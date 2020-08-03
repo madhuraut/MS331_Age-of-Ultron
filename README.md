@@ -6,12 +6,12 @@ DRISHTI non-invasive biometric system that captures face, expression and gesture
 ### 1. Face recognition
 ![](https://github.com/madhuraut/MS331_Age-of-Ultron/blob/master/demo_vids/face%20recognition.gif)
 
-We are able to identify both known and unknown person in images as well as realtime video stream. 
+We are able to identify both known and unknown person in images as well as in realtime video stream. 
 ### 2. Face Anti-spoofing
 ![](https://github.com/madhuraut/MS331_Age-of-Ultron/blob/master/demo_vids/anti_spoofing.gif)
 
 Most entry level Face recognition systems are susceptible to presentation attaks.
-But our system can identify if the face visible in camera frame is reak or fake.
+But our system can identify if the face visible in camera frame is real or fake.
 ### 3. Emotion Recognition
 ![](https://github.com/madhuraut/MS331_Age-of-Ultron/blob/master/demo_vids/emotion_recognition.gif)
 
