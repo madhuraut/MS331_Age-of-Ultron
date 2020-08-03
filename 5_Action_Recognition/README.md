@@ -2,9 +2,9 @@
 
 
 ### About this module
+OpenPose gives the information about skeletal data from a video frame. We use this skeletal data to train a simple 3- layered neural network. We are able to correctly classify the input video frame into one of the following nine classes
+[Kick, punch, sit, squat, stand, wave, walk, jump, run].
 
-Whenever an activity is performed by a person, it usually lasts a few seconds. 
-It is essential to look into temporal (time) variation of data to predict the activity class with desired accuracy.
 Hence, we use OpenPose and a Convolutional Neural Network (CNN).
 
 ### Pose Estimation
