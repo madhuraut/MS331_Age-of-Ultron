@@ -49,6 +49,7 @@ Also even if we could capture the face of suspect in any one frame we can track 
 In real time we plan that all these modules will run parallely and send the output to central server which then updates Dashboard GUI in realtime. 
 
 Following is the screen-shot of the proposed GUI:
+![Alt text](https://github.com/madhuraut/MS331_Age-of-Ultron/blob/master/demo_vids/gui.png)
 
 ### Details of each module are further available in readme files of respective folders 
 
