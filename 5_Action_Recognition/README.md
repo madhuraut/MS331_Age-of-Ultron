@@ -12,7 +12,7 @@ Deep Learning Model: cmu (pretrained on COCO dataset)
  Input: image (frame)
  Number of layers: 101
  Output: skeleton is marked on the image (Positions of skeletal joints)
-
+Trained on the dataset: https://cocodataset.org/#home
 
 
 ### Tracking
@@ -22,6 +22,7 @@ Euclidean distance between the joints of two skeletons is used for matching two 
 ### Classification
 Classification into the various action types is performed with the help of neural network classifier.
  Output: probability of a particular action detected
+Trained on the dataset: https://drive.google.com/open?id=1V8rQ5QR5q5zn1NHJhhf-6xIeDdXVtYs9
 
 
 ## How to use
