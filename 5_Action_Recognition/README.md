@@ -13,6 +13,8 @@ Deep Learning Model: cmu (pretrained on COCO dataset)
  Number of layers: 101
  Output: skeleton is marked on the image (Positions of skeletal joints)
 
+
+
 ### Tracking
 It is used for tracking each person.
 Euclidean distance between the joints of two skeletons is used for matching two skeletons.
