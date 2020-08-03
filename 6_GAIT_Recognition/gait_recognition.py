@@ -15,6 +15,7 @@ from sklearn.svm import SVC
 from sklearn.preprocessing import LabelEncoder
 from keras.utils import to_categorical
 
+##################################
 #List of 16 body joints
 jointNames = [
     'left wrist',
@@ -46,7 +47,7 @@ print('Total number of videos are: ', len(files))
 
 print('The categories(levels) are being converted into integers.\nSo, Following is the mapping - \n')
 last_labels = zip(range(5), rawData['target_names'])
-
+#################################
 # Displaying the first 5 videos (paths) in the training data along with their labels
 # (path of video, class label)
 for pair in zip(files[:5], targets[:5]):
@@ -128,3 +129,4 @@ model.fit(encodings, lables)
 with open('gaitsvcclassifier7_with_50frames_newrefineddata.pkl', 'wb') as outfile:
     pickle.dump((model, [0, 1, 2, 3, 4]), outfile)
 print("Saved classifier model to file gaitsvcclassifier7_with_50frames_newrefineddata.pkl")
+ 

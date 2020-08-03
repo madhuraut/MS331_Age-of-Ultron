@@ -1,6 +1,7 @@
 # Face Recognition
 
 
+
 ## About this module
 
 Deep cascaded multi-task framework exploits the inherent correlation between detection and alignment to boost up their performance. 
@@ -24,14 +25,17 @@ In particular, the network will output five facial landmarks’ positions.
 It directly learns a mapping from face images to a compact Euclidean space where distances directly correspond to a measure of face similarity. Once this space has been produced, tasks such as face recognition, verification and clustering can be easily implemented using standard techniques with FaceNet embeddings as feature vectors.
 
 ### DEEP CONVOLUTIONAL NETWORK
-To directly optimize the embedding itself, rather than an intermediate bottleneck layer as in deep learning approaches
+To directly optimize the embedding itself, rather than an intermediate bottleneck layer as in deep face approach where they use sofmax loss to train the model.
 
 ### TRIPLETS
-To train, FaceNet uses triplets of roughly aligned matching / non-matching face patches generated using a novel online triplet mining method
+To train, FaceNet uses triplets of roughly aligned matching / non-matching face patches generated using a novel online triplet mining method (hard samples)
+
+With the help of triplet loss facenet achieves better discriminative power against feature vectors. Thus, minimizing intra class variance and maximizing interclass distance.
 
 
 ## How to use
 
 `python anti_spoofing.py`
+
 
 

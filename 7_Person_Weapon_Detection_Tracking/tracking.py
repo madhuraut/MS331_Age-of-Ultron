@@ -1,3 +1,5 @@
+#Code For Weapon Detection Tracking - SIH2020, Team: Age of Ultron, DIAT,Pune
+#importing all libraries and models
 import time, random
 import numpy as np
 from absl import app, flags, logging
@@ -11,6 +13,8 @@ from yolov3_tf2.models import (
 from yolov3_tf2.dataset import transform_images
 from yolov3_tf2.utils import draw_outputs, convert_boxes
 
+
+#######################
 from deep_sort import preprocessing
 from deep_sort import nn_matching
 from deep_sort.detection import Detection
