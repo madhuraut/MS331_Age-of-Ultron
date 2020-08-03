@@ -1,3 +1,5 @@
+#Code For Weapon Detection Tracking - SIH2020, Team: Age of Ultron, DIAT,Pune
+#importing all libraries and models
 import time, random
 import numpy as np
 from absl import app, flags, logging
