@@ -53,7 +53,11 @@ def detect(image):
             face = frame[startY:endY, startX:endX]
             face = cv2.resize(face, (400, 400))
             return face
-
+          
+          
+          
+          
+#######
 # Function to crop aligned face with landmarks
 def crop_with_ldmk(image, landmark):
     scale = 3.5
