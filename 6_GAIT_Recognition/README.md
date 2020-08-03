@@ -12,6 +12,8 @@ Gait Recognition Model: “Human3.6m”
 Using Residual Convolution Network. 
 
 
+
+
 ## How to use
 
 `python gait_recognition.py`
