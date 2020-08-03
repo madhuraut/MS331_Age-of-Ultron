@@ -1,5 +1,5 @@
 
-#CODE FOR GAIT Recognition - SIH2020, Team Age of Ultron, DIAT,Pune
+#Code For GAIT Recognition - SIH2020, Team Age of Ultron, DIAT,Pune
 #importing all libraries and models
 import os
 import numpy as np
