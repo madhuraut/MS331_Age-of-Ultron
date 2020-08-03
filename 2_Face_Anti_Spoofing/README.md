@@ -28,6 +28,8 @@ Number of layers: 23
 Output: spoofing attack probability ranging from 0 to 1
 
 
+
+
 ## How to use
 
 `python anti_spoofing.py`
