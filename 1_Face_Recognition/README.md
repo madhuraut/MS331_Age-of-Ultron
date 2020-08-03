@@ -35,7 +35,7 @@ With the help of triplet loss facenet achieves better discriminative power again
 
 ## How to use
 
-`python anti_spoofing.py`
+`python face_recognition_real_time.py`
 
 
 
