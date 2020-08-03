@@ -1,7 +1,7 @@
-# Age/Gender Detection
+### Age/Gender Detection
 
 
-## About this module
+### About this module
 
 It is a compact soft stagewise regression network for Age and gender estimation with compact model size. 
 SSR-Net performs multiclass Classification, then turns result into regression by calculating expected values.
@@ -23,7 +23,7 @@ Finally, the third and last convolutional layer operates on the 256 × 14 × 14 
 Finally, the output of the last fully connected layer is fed to a soft-max layer that assigns a probability for the given test image.
 
 
-## How to use
+### How to use
 
 `python age_detection.py`
 `python gender_detection.py`
