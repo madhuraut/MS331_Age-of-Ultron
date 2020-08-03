@@ -19,6 +19,8 @@ It separates the spatial cross-correlations from the channel cross correlations.
 It is the 1×1 convolution to change the dimension.
 
 
+
+
 ## How to use
 
 `python emotion_detection.py`
