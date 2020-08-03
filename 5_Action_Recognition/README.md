@@ -1,7 +1,7 @@
-# Action Recognition
+## Action Recognition
 
 
-## About this module
+### About this module
 
 Whenever an activity is performed by a person, it usually lasts a few seconds. 
 It is essential to look into temporal (time) variation of data to predict the activity class with desired accuracy.
@@ -25,7 +25,7 @@ Classification into the various action types is performed with the help of neura
 Trained on the dataset: https://drive.google.com/open?id=1V8rQ5QR5q5zn1NHJhhf-6xIeDdXVtYs9
 
 
-## How to use
+### How to use
 Run the file:
 `python action_recognition.py`
 
