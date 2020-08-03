@@ -23,7 +23,7 @@ Classification into the various action types is performed with the help of neura
 
 
 ## How to use
-
+Run the file:
 `python action_recognition.py`
 
 
