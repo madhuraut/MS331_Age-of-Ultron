@@ -1,4 +1,4 @@
-#CODE FOR Face Recognition - SIH2020, Team: Age of Ultron, DIAT,Pune
+#Code For Face Recognition - SIH2020, Team: Age of Ultron, DIAT,Pune
 #importing all libraries and models
 import sys
 import time
