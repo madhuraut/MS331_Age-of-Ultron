@@ -1,5 +1,5 @@
-### Person & Weapon Detection & Tracking
-
+### Person & Weapon Detection & Face Recognition Tracking
+We deetct person and weapons using YOLOv3. Then we corelate detected bonding box with the identity of the perso with the help of FaceNet. Then the detected bonding boxes of person (along with corresponding identity) and weapons is passed to deep sort tracking algorithm.
 ### About this module
 
 This solution implements YOLOv3 and Deep SORT in order to perform real-time Object Tracking and Weapon Detection.
