@@ -25,4 +25,3 @@ It is the 1×1 convolution to change the dimension.
 
 `python emotion_detection.py`
 
-
